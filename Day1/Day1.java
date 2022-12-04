@@ -1,3 +1,5 @@
+package Day1;
+
 import java.io.File;
 import java.io.FileNotFoundException;
 import java.util.ArrayList;
@@ -6,11 +8,11 @@ import java.util.Comparator;
 import java.util.List;
 import java.util.Scanner;
 
-public class a {
+public class Day1 {
 
     public static void main(String[] args) throws FileNotFoundException {
 
-        File inputFile = new File("input.txt");
+        File inputFile = new File("Day1/input.txt");
         Scanner scan = new Scanner(inputFile);
 
         List<Elf> elfList = new ArrayList<>();
